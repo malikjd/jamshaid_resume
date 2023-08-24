@@ -325,18 +325,18 @@ h3 {
   transition-duration: 0.3s;
 }
 .resume .func .skills-prog ul li:hover {
-  color: yellow;
+  color: rgb(172, 7, 15);
 }
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: yellow;
-  box-shadow: 0 0 0 1px yellow;
+  background: rgb(0, 255, 200);
+  box-shadow: 0 0 0 1px rgb(117, 90, 216);
 }
 .resume .func .skills-prog ul li span {
   display: block;
   width: 120px;
 }
 .resume .func .skills-prog ul li .skills-bar {
-  background: white;
+  background: rgb(255, 255, 255);
   height: 2px;
   width: calc(100% - 120px);
   position: relative;
@@ -346,7 +346,7 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: orange;
+  background: rgb(0, 47, 255);
   box-shadow: 0 0 0 orange;
   border-radius: 5px;
 }
